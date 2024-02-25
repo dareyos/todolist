@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/add_task_dialog.dart';
-import 'tasks.dart';
+import 'tasks_view.dart';
+import '../utils/colors.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.backgroundBrownLight,
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 128, 99, 89),
         centerTitle: true,

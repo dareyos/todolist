@@ -50,13 +50,6 @@ class _TasksState extends State<Tasks> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15.0),
         color: const Color.fromARGB(255, 255, 235, 221),
-        boxShadow: const [
-          BoxShadow(
-            color: AppColors.shadowColor,
-            blurRadius: 5.0,
-            offset: Offset(0, 5),
-          ),
-        ],
       ),
       child: ListTile(
         leading: buildTaskAvatar(taskColor),
