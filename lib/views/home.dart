@@ -27,6 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: const Icon(Icons.add),
       ),
       bottomNavigationBar: const BottomAppBar(
+        color: Color.fromARGB(255, 128, 99, 89),
         child: SizedBox(
           height: kBottomNavigationBarHeight,
         ),
